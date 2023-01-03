@@ -17,7 +17,7 @@
     "homepage": "https://github.com/nguyenquang2302/vietnam-maps",
     "authors": [
         {
-            "name": "Phi Hoang",
+            "name": "Ndq",
             "email": "quang.nd230293@gmail.com",
             "homepage": "https://github.com/nguyenquang2302/vietnam-maps",
             "role": "Developer"
@@ -27,8 +27,8 @@
     "require": {
         "php": "^7.2|^8.0",
         "illuminate/support": "^5.8|^6|^7|^8|^9",
-        "illuminate/database": "^5.8|^6|^7|^8",
-        "illuminate/console": "^5.8|^6|^7|^8",
+        "illuminate/database": "^5.8|^6|^7|^8|^9",
+        "illuminate/console": "^5.8|^6|^7|^8|^9",
         "guzzlehttp/guzzle": "^7.0.1",
         "maatwebsite/excel": "^3.1"
     },
