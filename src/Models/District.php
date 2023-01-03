@@ -1,6 +1,6 @@
 <?php
 
-namespace HoangPhi\VietnamMap\Models;
+namespace Ndq\VietnamMap\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

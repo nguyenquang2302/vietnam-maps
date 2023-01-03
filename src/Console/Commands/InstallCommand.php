@@ -1,6 +1,6 @@
 <?php
 
-namespace HoangPhi\VietnamMap\Console\Commands;
+namespace Ndq\VietnamMap\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
@@ -20,7 +20,7 @@ class InstallCommand extends Command
     {
         $this->info('Please wait for installing...');
 
-        Artisan::call('vendor:publish', ['--provider' => 'HoangPhi\VietnamMap\VietnamMapServiceProvider']);
+        Artisan::call('vendor:publish', ['--provider' => 'Ndq\VietnamMap\VietnamMapServiceProvider']);
         Artisan::call('migrate');
         Artisan::call('config:cache');
         Artisan::call('config:clear');

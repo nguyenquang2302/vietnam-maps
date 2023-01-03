@@ -1,10 +1,9 @@
 {
-    "name": "hoangphi/vietnam-maps",
+    "name": "nguyenquang2302/vietnam-maps",
     "description": "Vietnam's area database.",
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "hoangphidev",
         "vietnam-maps",
         "vietnam-zone",
         "vietnam-database",
@@ -15,19 +14,19 @@
         "hanhchinhvietnam",
         "hcvn"
     ],
-    "homepage": "https://github.com/hoangphidev/vietnam-maps",
+    "homepage": "https://github.com/nguyenquang2302/vietnam-maps",
     "authors": [
         {
             "name": "Phi Hoang",
-            "email": "hoangphi.dev@gmail.com",
-            "homepage": "https://github.com/hoangphidev/vietnam-maps",
+            "email": "quang.nd230293@gmail.com",
+            "homepage": "https://github.com/nguyenquang2302/vietnam-maps",
             "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^7.2|^8.0",
-        "illuminate/support": "^5.8|^6|^7|^8",
+        "illuminate/support": "^5.8|^6|^7|^8|^9",
         "illuminate/database": "^5.8|^6|^7|^8",
         "illuminate/console": "^5.8|^6|^7|^8",
         "guzzlehttp/guzzle": "^7.0.1",
@@ -35,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HoangPhi\\VietnamMap\\": "src/"
+            "Ndq\\VietnamMap\\": "src/"
         }
     },
     "config": {
@@ -44,7 +43,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "HoangPhi\\VietnamMap\\VietnamMapServiceProvider"
+                "Ndq\\VietnamMap\\VietnamMapServiceProvider"
             ]
         }
     },

@@ -1,9 +1,9 @@
 <?php
 
-namespace HoangPhi\VietnamMap\Console\Commands;
+namespace Ndq\VietnamMap\Console\Commands;
 
-use HoangPhi\VietnamMap\DownloadFile;
-use HoangPhi\VietnamMap\Imports\VietnamMapImport;
+use Ndq\VietnamMap\DownloadFile;
+use Ndq\VietnamMap\Imports\VietnamMapImport;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;
 use Maatwebsite\Excel\Facades\Excel;

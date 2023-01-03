@@ -1,9 +1,9 @@
 <?php
 
-namespace HoangPhi\VietnamMap;
+namespace Ndq\VietnamMap;
 
-use HoangPhi\VietnamMap\Console\Commands\DownloadCommand;
-use HoangPhi\VietnamMap\Console\Commands\InstallCommand;
+use Ndq\VietnamMap\Console\Commands\DownloadCommand;
+use Ndq\VietnamMap\Console\Commands\InstallCommand;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;

@@ -1,6 +1,6 @@
 <?php
 
-namespace HoangPhi\VietnamMap\Imports;
+namespace Ndq\VietnamMap\Imports;
 
 use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Concerns\SkipsOnFailure;
